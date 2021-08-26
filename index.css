@@ -1,328 +1,215 @@
-/** bribri **/
-header {
-  height: 80px;
-  width: 100%;
-  float: left;
-}
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CO2</title>
+	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel='stylesheet' href='https://badoystudio.com/cloudme.fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@font-face {
+			font-family: 'Modulus';
+			src: url('Modulus/Modulus-Bold.otf');
+			src: url('Modulus/Modulus_Medium.ttf');
+			src: url('Modulus/Modulus.ttf');
+	</style>
+</head>
+<main>
 
-.container {
-height: 80px;
-width: 100%;
-float: left;
-background-color: rgba(0, 101, 151, 0.2);
-position: fixed;
-top: 0;
+	<body>
+		<header>
+			<div class="container">
+					<img class="header logo" src="https://www.koolzone.com/wp-content/uploads/2019/03/ico-co22.svg">
+          <img class="header tubes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0XKwPmLPwTZWWwRSCHJI7Bhh5drZyQQO-sw&usqp=CAU">
+         <div id="header-menu">
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#title">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+         </div>
+        </div>
+          
 
-z-index: 10;
+      </header>
 
-}
-
-.logo {
-  height: 80px;
-}
-
-
-.tubes{
-  height: 80px;
-  opacity: 0.8;
-}
-
-#header-menu {
-  float: right;
-  font-size: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
-}
-
-.login {
-margin-top: 10px;
-background-color: #00a8ff;
-padding: 5px 10px;
-margin-bottom: 10px;
-color: #FFFFFF;
-display: block;
-box-shadow: 0px 10px rgb(0, 151, 230);
-cursor: pointer;
-transition: background-color 1s;
-text-align: center; 
-}
-
-
-
-.login:hover {
-  background-color: #66b9f0;
+   <!-- INI CONTOH AJA -->
+   <!-- "86"-bryen -->
   
+  <div class="heading">
+    <div class="backgroundimage"></div>
+    <div class="heading-title">  
+     <h1>Welcome to <br><span>Carbon Dioxide !</span></h1>
+     <p><i>“Live as if you were to die tomorrow. <br>Learn as if you were to live forever.”<br>
+     ― Mahatma Gandhi
+     </i></p>
+   </div>
   
-}
+   <!-- tempat sign uppp-->
+   <div class="signup">
+    <p> Username</p>
+    <input>
+    <p> E-mail </p>
+    <input>
+    <a class="login" href="#">Log in</a>
+    <p>New member? <a href="#" target="_blank">Create an account</a></p>
+   </div>
+ 
+  </div>
 
-.login:active {
-  position: relative;
-  top: 10px;
-  box-shadow:none;
-}
+     
+  <div id="content">
+    <div id="article_1">
+      <div id="article_header_1">
+        <h1><span> Fun Fact about Chemistry </span></h1>
+        <h2>some of them are shocking!</h2>
+      </div>
+      <div class="content">
+        <h3> <span id="h3highlight"> 1. Gold and copper are only two non-silvery metals</span></h3>
+          <p> <span id="highlightp">
+            A metal is an element that readily forms positive ions (cations) and has metalic bonds. Most metals' electron reflect colors equally. Gold and copper absord blue and violet light, and leaving yellow light.
+            </span>
+          <p>  
+        <h3> <span id="h3highlight"> 2. Glass is just a liquid has flows very slowly </span></h3>
+          <p> <span id="highlightp">
+            when something cold, abviously shrinks, because of the tempature describes atomic vibration. Water molecule is seems like the oxygen atom are between two hydrogen atom. If the waters freezes, it can realeases energy, beacuse can be made  a lot of strong bonds. 
+            </span>
+          </p>
+        <h3> <span id="h3highlight"> 3. Graphite and diamond are made only just by carbon </span></h3>
+          <p> <span id="highlightp">
+            Graphite and diamond are allotropes of carbon, because are arranged differenly in space making of them.
+            </span>
+          </p>
+        <h3><span id="h3highlight"> 4. 10 inches of snow = 1 inch of rain </span></h3>
+          <p> <span id="highlightp">
+            If the temprature 0 degrees Celcius, assuming all snow are rainfall. one inch of rain are ten inches of snow.</span>
+          </p>
+        <h3> <span id="h3highlight"> 5. A rubber tire is made by one giant polymerized molecule </span> </h3>
+          <p> <span id="highlightp">
+          Large polymers chains that have been crosslinked together with covalent bonds are made for rubber tire </span> </p>
+        <h3> <span id="h3highlight"> 6. Astatine is the rarest naturally element in the Earth’s crust </span></h3>
+          <p> <span id="highlightp">
+         The entire crust appears to contain about 28 g of the element. If scientists ever have to use it, they basically have to make it from scratch. Only 0.00000005 grams of astatine have been made so far. </span></p>
+        <h3> <span id="h3highlight">7. DNA is a flame radiant </span></h3>
+          <p> <span id="highlightp">
+          Its flame retardant properties are due to DNA’s chemical structure when heated, the phosphate-containing backbone produces phosphoric acid, which chemically removes water, leaving behind a flame-resistant, carbon-rich residue. Other bases, such as nitrogen, react to produce ammonia which inhibits combustion. </span></p>
+      </div>
+    </div>
+  </div>
 
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+    <div class="periodictable">
+      <img src="Periodictable.svg">
+     <p> Source:
+       <a href="https://images.app.goo.gl/mEqWBuyK1qrdqR1Y6"> Wikipedia </a>
+     </p>
+    </div>
+    
+  <div id="sidebar">
+    <h1>Article Source</h1>
+      <ul>
+        <li><a href="https://www.zmescience.com/science/chemistry/amazing-chemistry-facts/"> Fun Fact About Chemistry</a></li>
+        <li><a href="https://images.app.goo.gl/mEqWBuyK1qrdqR1Y6">Perodic Table</a></li>
+      </ul>
+    </div>
 
-.heading {
-  width: 100%;
-  margin-top: 500px;
-  display: flex;
-  justify-content: center;
-}
+   <div class="team">
+     <div class="title">
+       <h2 id="title">About Us</h2>
+      </div>
 
-.heading-title {
- margin-left: 50px;
- font-size: 30px;
- height: 100px;
- width: 700px;
- /** smangat yuk**/
- border-bottom: 0px solid #082a3b ;
- justify-items: center;
-}
+      
+    <div class="team-member">
+      <div class="overlay">
+        <h3>Ananda Shabrina Putri Gunawan</h3>
+      </div>
 
-.signup {
-  height: 500px;
-  padding: 30px;
-}
+      <img src="nanda.jpg" alt="" />
+      <div class="bio">
+        <p>18|INFP| she/her</p>
+        <a href="https://github.com/nandaisnanda">Github</a>
+        <a href="https://instagram.com/nanda.is.gunawan"> Instagram</a>
+      </div>
 
-.signup input {
-  width: 500px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
-}
+    </div>
+    <div class="team-member">
+      <div class="overlay">
+        <h3>Barli Ervanthe</h3>
+      </div>
 
-.signup p{
-font-size: 24px;
-}
+      <img src="barly.jpg" alt="" />
+      <div class="bio">
+        <p>Belajar diluar zona nyaman</p>
+      </div>
 
-.header-title p{
-font-size: 100;
-}
+    </div>
+    <div class="team-member">
+      <div class="overlay">
+        <h3>Bryen</h3>
+      </div>
 
-.heading-title span {
-  letter-spacing: 3px;
-  font-size: 72px;
-}
+      <img src="bryan.jpg" alt="" />
+      <div class="bio">
+        <p> Ayah ku jago banget main petak umpet,<br>rekor dia 15 tahun,<br> sampe sekarang gw gabisa ketemu dia</p>
+        <a href="https://github.com/bryennk">Github</a>
+        <a href="https://www.instagram.com/bryennk/">Instagram</a>
+      </div>
 
-#header-menu li {
-  font-size: 20px;
-  float:left;
-  padding-right: 50px;
-  font-weight: bold;
-}
+    </div>
+    <div class="team-member">
+      <div class="overlay">
+        <h3>Muhammad Rifqi Ilham</h3>
+      </div>
 
-#content {
-margin-left: 50px;
-position: relative;
-background-color: white;
-}
+      <img src="rifqi.jpg" alt="" style="object-position: 50% 10%;"/>
+      <div class="bio">
+        <p>Baru lulus dari Al-Azhar, Kairo. bergelar Lc; Lulusan coding.</p>
+        <a href="https://github.com/mufqam">Github</a>
+        <a href="https://instagram.com/mufqam">Instagram</a>
+        <a href="https://twitter.com/mufqam">Twitter</a>
 
+      </div>
 
-.content h3 {
-  margin-bottom: 10px;
-  padding-left: 20 px;
-}
+    </div>
+    <div class="team-member">
+      <div class="overlay">
+        <h3>Zaky Dafalas</h3>
+      </div>
 
-.content p {
-  margin-bottom: 30px;
-}
+      <img src="zakydfls.jpg" alt="" />
+      <div class="bio">
+        <p>Learning to earning</p>
+      </div>
+   
+  </div>
+  <div id="modal">
+    <div id="modal-content">
+      <div class="close">+</div>
+      <img src="Rifqi.jpg" alt="">
+      <h3>Rifqi</h3>
+      <div class="modal-bio"><p>
+          Duta Sampo Lain
+        </p></div>
+    </div>
+  </div>
+   </div>
+  </div>
 
-.team {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
-  max-width: 1200px;
-  grid-gap: 20px;
-  margin: 0px auto;
-  justify-items: center;
-  align-items: center;
-}
+  <footer class="w3-container w3-blue w3-center w3-margin-top">
+  <p>Find us on social media.</p>
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+<i class="fa fa-instagram w3-hover-opacity"></i>
+<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+<i class="fa fa-twitter w3-hover-opacity"></i>
+<i class="fa fa-github w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.progate.com" target="_blank">Progate</a>
+  <a href="https://www.kotakode.com" target="_blank">Kotakode</a>
+</p>
+  </footer>
 
-.title h2 {
-  font-size: 1.8rem;
-  
-}
-
-.team-member {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-}
-
-.team-member img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
-}
-
-.bio {
-  display: none;
-}
-
-.overlay {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  font-size: 1.5rem;
-  opacity: 0;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  
-}
-
-
-.overlay h3 {
-  padding: 0px 5px;
-}
-
-.overlay:hover {
-  opacity: 100%;
-}
-
-#modal{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  position: absolute;
-  top: 0;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  
-}
-
-#modal-content{
-  width: 500px;
-  max-height: 600px;
-  background-color: white;
-  border-radius: 5px;
-  padding: 40px;
-  overflow: auto;
-  line-height: 1.5rem;
-  margin: 0 20px;
-  position: relative;
-  
-}
-
-#modal-content h3 {
-  margin-bottom: 10px;
-}
-
-#modal-content img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  float: left;
-  padding: 0px 18px 10px 0px;
-  border-radius: 50%;
-}
-
-#modal-content::-webkit-scrollbar { 
-  width: 0 !important;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-}
-
-#modal-content p{
-  margin:0;
-}
-#modal-content p + p{
-  margin-top:1rem;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 2.25rem;
-  transform: rotate(45deg);
-  cursor: pointer;
-  color: #929292;
-  transition: all 0.2s ease;
-}
-
-.close:hover {
-  color: rgb(0,0,0);
-}
-
-@media only screen and (max-width: 500px) {
-  #modal-content {
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-
-
-
-body {
-  font-family: Cambria;
-  linear-gradient(
-90deg
-,#F6F8FD 29px,transparent 1%) center,linear-gradient(#F6F8FD 29px,transparent 1%) center,#bfc5d3;
-}
-li {
-  list-style: none;
-}
-
-.periodictable {
-  text-align: center;
-}
-
-span {
-  font-family: 'Modulus';
-}
-
-
-
-.footer {
-  background-color: #0097e6;
-  color: #fff;
-  height: 200px;
-  padding: 100%;
-  width: 100%;
-}
-
-.footer-logo {
-  float: left;
-  font-size: 72px;
-}
-
-.footer-list {
-  float: right;
-  
-}
-
-.footer-list li {
-  padding-bottom: 20px;
-}
-#h3highlight{
-  background-color: whitesmoke;
-  font-family: cursive;
-}
-
-#highlightp{
-  font-family: monospace;
-  background-color: floralwhite;
-  }
-
+    <script src="scripts/index.js"></script>
+  </body>
+  </main>
+</html>
